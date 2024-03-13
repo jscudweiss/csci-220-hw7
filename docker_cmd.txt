@@ -1,2 +1,0 @@
-docker compose exec postgres bash
-psql --username="$POSTGRES_USER" --dbname="$POSTGRES_DB" --set ON_ERROR_STOP=on --file /postgres_files/db_dump.DATE.sql
