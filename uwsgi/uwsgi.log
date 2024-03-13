@@ -1,0 +1,356 @@
+*** Starting uWSGI 2.0.24 (64bit) on [Wed Mar 13 14:59:33 2024] ***
+compiled with version: 12.2.0 on 13 March 2024 14:59:05
+os: Linux-5.15.146.1-microsoft-standard-WSL2 #1 SMP Thu Jan 11 04:09:03 UTC 2024
+nodename: 3dbe7cdeb439
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 8
+current working directory: /uwsgi
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /var/www/uwsgi/uwsgi.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.12.2 (main, Mar 12 2024, 11:02:14) [GCC 12.2.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7f4545f72308
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291680 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7f4545f72308 pid: 1 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 1, cores: 1)
+spawned uWSGI worker 2 (pid: 7, cores: 1)
+spawned uWSGI worker 3 (pid: 8, cores: 1)
+spawned uWSGI worker 4 (pid: 9, cores: 1)
+*** Starting uWSGI 2.0.24 (64bit) on [Wed Mar 13 15:03:31 2024] ***
+compiled with version: 12.2.0 on 13 March 2024 14:59:05
+os: Linux-5.15.146.1-microsoft-standard-WSL2 #1 SMP Thu Jan 11 04:09:03 UTC 2024
+nodename: 3dbe7cdeb439
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 8
+current working directory: /uwsgi
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /var/www/uwsgi/uwsgi.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.12.2 (main, Mar 12 2024, 11:02:14) [GCC 12.2.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fd16fad2308
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291680 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7fd16fad2308 pid: 1 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 1, cores: 1)
+spawned uWSGI worker 2 (pid: 8, cores: 1)
+spawned uWSGI worker 3 (pid: 9, cores: 1)
+spawned uWSGI worker 4 (pid: 10, cores: 1)
+[pid: 1|app: 0|req: 1/1] 172.18.0.1 () {58 vars in 1057 bytes} [Wed Mar 13 15:04:06 2024] GET / => generated 11 bytes in 73 msecs (HTTP/1.1 200) 1 headers in 44 bytes (1 switches on core 0)
+[pid: 9|app: 0|req: 1/2] 172.18.0.1 () {56 vars in 984 bytes} [Wed Mar 13 15:04:09 2024] GET /favicon.ico => generated 11 bytes in 152 msecs (HTTP/1.1 200) 1 headers in 44 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.24 (64bit) on [Wed Mar 13 15:09:21 2024] ***
+compiled with version: 12.2.0 on 13 March 2024 14:59:05
+os: Linux-5.15.146.1-microsoft-standard-WSL2 #1 SMP Thu Jan 11 04:09:03 UTC 2024
+nodename: 3dbe7cdeb439
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 8
+current working directory: /uwsgi
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /var/www/uwsgi/uwsgi.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.12.2 (main, Mar 12 2024, 11:02:14) [GCC 12.2.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7f907de50308
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291680 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7f907de50308 pid: 1 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 1, cores: 1)
+spawned uWSGI worker 2 (pid: 7, cores: 1)
+spawned uWSGI worker 3 (pid: 8, cores: 1)
+spawned uWSGI worker 4 (pid: 9, cores: 1)
+*** Starting uWSGI 2.0.24 (64bit) on [Wed Mar 13 15:11:43 2024] ***
+compiled with version: 12.2.0 on 13 March 2024 14:59:05
+os: Linux-5.15.146.1-microsoft-standard-WSL2 #1 SMP Thu Jan 11 04:09:03 UTC 2024
+nodename: 21ff76e149ca
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 8
+current working directory: /uwsgi
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /var/www/uwsgi/uwsgi.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.12.2 (main, Mar 12 2024, 11:02:14) [GCC 12.2.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7f7dc2dc5308
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291680 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7f7dc2dc5308 pid: 1 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 1, cores: 1)
+spawned uWSGI worker 2 (pid: 7, cores: 1)
+spawned uWSGI worker 3 (pid: 8, cores: 1)
+spawned uWSGI worker 4 (pid: 9, cores: 1)
+[pid: 9|app: 0|req: 1/1] 172.18.0.1 () {58 vars in 1057 bytes} [Wed Mar 13 15:11:55 2024] GET / => generated 416 bytes in 6 msecs (HTTP/1.1 200) 1 headers in 44 bytes (1 switches on core 0)
+[pid: 9|app: 0|req: 2/2] 172.18.0.1 () {56 vars in 984 bytes} [Wed Mar 13 15:11:58 2024] GET /favicon.ico => generated 416 bytes in 0 msecs (HTTP/1.1 200) 1 headers in 44 bytes (2 switches on core 0)
+[pid: 9|app: 0|req: 3/3] 172.18.0.1 () {68 vars in 1274 bytes} [Wed Mar 13 15:12:04 2024] POST / => generated 446 bytes in 10 msecs (HTTP/1.1 200) 1 headers in 44 bytes (1 switches on core 0)
+[pid: 9|app: 0|req: 4/4] 172.18.0.1 () {56 vars in 984 bytes} [Wed Mar 13 15:12:05 2024] GET /favicon.ico => generated 416 bytes in 1 msecs (HTTP/1.1 200) 1 headers in 44 bytes (2 switches on core 0)
+[pid: 9|app: 0|req: 5/5] 172.18.0.1 () {68 vars in 1274 bytes} [Wed Mar 13 15:12:18 2024] POST / => generated 448 bytes in 0 msecs (HTTP/1.1 200) 1 headers in 44 bytes (2 switches on core 0)
+[pid: 9|app: 0|req: 6/6] 172.18.0.1 () {56 vars in 984 bytes} [Wed Mar 13 15:12:18 2024] GET /favicon.ico => generated 416 bytes in 0 msecs (HTTP/1.1 200) 1 headers in 44 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.24 (64bit) on [Wed Mar 13 15:14:17 2024] ***
+compiled with version: 12.2.0 on 13 March 2024 14:59:05
+os: Linux-5.15.146.1-microsoft-standard-WSL2 #1 SMP Thu Jan 11 04:09:03 UTC 2024
+nodename: 3be053763356
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 8
+current working directory: /uwsgi
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /var/www/uwsgi/uwsgi.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.12.2 (main, Mar 12 2024, 11:02:14) [GCC 12.2.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7f152a503308
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291680 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7f152a503308 pid: 1 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 1, cores: 1)
+spawned uWSGI worker 2 (pid: 7, cores: 1)
+spawned uWSGI worker 3 (pid: 8, cores: 1)
+spawned uWSGI worker 4 (pid: 9, cores: 1)
+*** Starting uWSGI 2.0.24 (64bit) on [Wed Mar 13 15:15:04 2024] ***
+compiled with version: 12.2.0 on 13 March 2024 14:59:05
+os: Linux-5.15.146.1-microsoft-standard-WSL2 #1 SMP Thu Jan 11 04:09:03 UTC 2024
+nodename: 3be053763356
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 8
+current working directory: /uwsgi
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /var/www/uwsgi/uwsgi.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.12.2 (main, Mar 12 2024, 11:02:14) [GCC 12.2.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7f4a7cae4308
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291680 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7f4a7cae4308 pid: 1 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 1, cores: 1)
+spawned uWSGI worker 2 (pid: 7, cores: 1)
+spawned uWSGI worker 3 (pid: 8, cores: 1)
+spawned uWSGI worker 4 (pid: 9, cores: 1)
+[pid: 8|app: 0|req: 1/1] 172.18.0.1 () {58 vars in 1057 bytes} [Wed Mar 13 15:15:14 2024] GET / => generated 85 bytes in 320 msecs (HTTP/1.1 200) 1 headers in 44 bytes (1 switches on core 0)
+[pid: 9|app: 0|req: 1/2] 172.18.0.1 () {56 vars in 984 bytes} [Wed Mar 13 15:15:16 2024] GET /favicon.ico => generated 85 bytes in 24 msecs (HTTP/1.1 200) 1 headers in 44 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.24 (64bit) on [Wed Mar 13 15:18:50 2024] ***
+compiled with version: 12.2.0 on 13 March 2024 14:59:05
+os: Linux-5.15.146.1-microsoft-standard-WSL2 #1 SMP Thu Jan 11 04:09:03 UTC 2024
+nodename: 3be053763356
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 8
+current working directory: /uwsgi
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /var/www/uwsgi/uwsgi.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.12.2 (main, Mar 12 2024, 11:02:14) [GCC 12.2.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7f82b78f1308
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291680 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7f82b78f1308 pid: 1 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 1, cores: 1)
+spawned uWSGI worker 2 (pid: 7, cores: 1)
+spawned uWSGI worker 3 (pid: 8, cores: 1)
+spawned uWSGI worker 4 (pid: 9, cores: 1)
+[pid: 9|app: 0|req: 1/1] 172.18.0.1 () {60 vars in 1088 bytes} [Wed Mar 13 15:19:49 2024] GET / => generated 85 bytes in 45 msecs (HTTP/1.1 200) 1 headers in 44 bytes (2 switches on core 0)
+[pid: 1|app: 0|req: 1/2] 172.18.0.1 () {56 vars in 984 bytes} [Wed Mar 13 15:19:50 2024] GET /favicon.ico => generated 85 bytes in 21 msecs (HTTP/1.1 200) 1 headers in 44 bytes (2 switches on core 0)
+[pid: 7|app: 0|req: 1/3] 172.18.0.1 () {58 vars in 1057 bytes} [Wed Mar 13 15:19:56 2024] GET / => generated 85 bytes in 37 msecs (HTTP/1.1 200) 1 headers in 44 bytes (2 switches on core 0)
+[pid: 1|app: 0|req: 2/4] 172.18.0.1 () {56 vars in 984 bytes} [Wed Mar 13 15:19:58 2024] GET /favicon.ico => generated 85 bytes in 27 msecs (HTTP/1.1 200) 1 headers in 44 bytes (2 switches on core 0)
+*** Starting uWSGI 2.0.24 (64bit) on [Wed Mar 13 15:20:25 2024] ***
+compiled with version: 12.2.0 on 13 March 2024 14:59:05
+os: Linux-5.15.146.1-microsoft-standard-WSL2 #1 SMP Thu Jan 11 04:09:03 UTC 2024
+nodename: 3be053763356
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 8
+current working directory: /uwsgi
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /var/www/uwsgi/uwsgi.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.12.2 (main, Mar 12 2024, 11:02:14) [GCC 12.2.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7f3a929dc308
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291680 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7f3a929dc308 pid: 1 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 1, cores: 1)
+spawned uWSGI worker 2 (pid: 7, cores: 1)
+spawned uWSGI worker 3 (pid: 8, cores: 1)
+spawned uWSGI worker 4 (pid: 9, cores: 1)
+[pid: 8|app: 0|req: 1/1] 172.18.0.1 () {60 vars in 1088 bytes} [Wed Mar 13 15:20:32 2024] GET / => generated 85 bytes in 37 msecs (HTTP/1.1 200) 1 headers in 44 bytes (2 switches on core 0)
+[pid: 8|app: 0|req: 2/2] 172.18.0.1 () {56 vars in 984 bytes} [Wed Mar 13 15:20:33 2024] GET /favicon.ico => generated 85 bytes in 14 msecs (HTTP/1.1 200) 1 headers in 44 bytes (2 switches on core 0)
+*** Starting uWSGI 2.0.24 (64bit) on [Wed Mar 13 15:40:18 2024] ***
+compiled with version: 12.2.0 on 13 March 2024 14:59:05
+os: Linux-5.15.146.1-microsoft-standard-WSL2 #1 SMP Thu Jan 11 04:09:03 UTC 2024
+nodename: c23455e61913
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 8
+current working directory: /uwsgi
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /var/www/uwsgi/uwsgi.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.12.2 (main, Mar 12 2024, 11:02:14) [GCC 12.2.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7f9d73095308
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291680 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7f9d73095308 pid: 1 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 1, cores: 1)
+spawned uWSGI worker 2 (pid: 7, cores: 1)
+spawned uWSGI worker 3 (pid: 8, cores: 1)
+spawned uWSGI worker 4 (pid: 9, cores: 1)
+[pid: 1|app: 0|req: 1/1] 172.18.0.1 () {56 vars in 984 bytes} [Wed Mar 13 15:43:57 2024] GET /favicon.ico => generated 1274 bytes in 602 msecs (HTTP/1.1 200) 1 headers in 44 bytes (1 switches on core 0)
+[pid: 7|app: 0|req: 1/2] 172.18.0.1 () {58 vars in 1057 bytes} [Wed Mar 13 15:44:01 2024] GET / => generated 1274 bytes in 194 msecs (HTTP/1.1 200) 1 headers in 44 bytes (1 switches on core 0)
+[pid: 7|app: 0|req: 2/3] 172.18.0.1 () {56 vars in 984 bytes} [Wed Mar 13 15:44:03 2024] GET /favicon.ico => generated 1274 bytes in 21 msecs (HTTP/1.1 200) 1 headers in 44 bytes (2 switches on core 0)
+[pid: 7|app: 0|req: 3/4] 172.18.0.1 () {68 vars in 1276 bytes} [Wed Mar 13 15:44:18 2024] POST / => generated 1120 bytes in 149 msecs (HTTP/1.1 200) 1 headers in 44 bytes (2 switches on core 0)
+[pid: 7|app: 0|req: 4/5] 172.18.0.1 () {56 vars in 984 bytes} [Wed Mar 13 15:44:18 2024] GET /favicon.ico => generated 1577 bytes in 23 msecs (HTTP/1.1 200) 1 headers in 44 bytes (2 switches on core 0)
+[pid: 7|app: 0|req: 5/6] 172.18.0.1 () {60 vars in 1127 bytes} [Wed Mar 13 15:44:22 2024] GET /miniFacebook.py => generated 1577 bytes in 12 msecs (HTTP/1.1 200) 1 headers in 44 bytes (1 switches on core 0)
+[pid: 7|app: 0|req: 6/7] 172.18.0.1 () {56 vars in 999 bytes} [Wed Mar 13 15:44:22 2024] GET /favicon.ico => generated 1577 bytes in 25 msecs (HTTP/1.1 200) 1 headers in 44 bytes (2 switches on core 0)
